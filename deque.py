@@ -39,13 +39,3 @@ def palindrom(str):
         elif deq.size() ==1:
             return True
     return True
-
-deq = Deque()
-deq.addFront("f1")
-deq.addTail("t1")
-deq.addFront("f2")
-deq.addTail("t2")
-while deq.size() > 0:
-    print(deq.removeFront())
-    print(deq.removeTail())
-print(deq.size())
